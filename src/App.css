@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: solid white;
+  padding: 3rem 8rem;
+  border-radius: 20px;
+}
+
+form input {
+  margin-bottom: 1rem;
+}
+
+form button {
+  height: 4vh;
+  width: 70%;
+  align-self: center;
+  margin-top: 2rem;
+}
+
+.error {
+  margin-top: -0.5rem;
+  color: tomato;
+}
