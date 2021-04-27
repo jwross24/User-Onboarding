@@ -44,9 +44,9 @@ the following:
 Being able to `POST` data is a key skill of any developer, no matter your skill
 level.
 
-- [ ] Craft a `POST` request using `axios` that sends your form data to the
+- [x] Craft a `POST` request using `axios` that sends your form data to the
       following endpoint: _`https://reqres.in/api/users`_
-- [ ] Verify using a `console.log()` that you are receiving a successful
+- [x] Verify using a `console.log()` that you are receiving a successful
       response back
 
 (Note: For those that are curious, we're using [reqres.in](https://reqres.in/)
@@ -58,11 +58,11 @@ request for any data that we send it. Pretty awesome!)
 When you get your data back, you will want to do something with it, right? Let's
 display a list of users in our app.
 
-- [ ] Set up a state property called `users` that is initialized with an empty
+- [x] Set up a state property called `users` that is initialized with an empty
       array
-- [ ] Every time you make a `POST` request, and get that new user data back,
+- [x] Every time you make a `POST` request, and get that new user data back,
       update your `users` state with the new user added to the array
-- [ ] Render `users` in your app. You can use the html pre tag and
+- [x] Render `users` in your app. You can use the html pre tag and
       JSON.stringify() method to display your post request.
 
 ### Task 3: Stretch Goals
@@ -70,13 +70,13 @@ display a list of users in our app.
 The following are stretch goals that you should attempt _after_ you meet MVP for
 your project:
 
-- [ ] Add basic styling to your form in your app. Make it look pretty with any
+- [x] Add basic styling to your form in your app. Make it look pretty with any
       styling method you choose.
 - [ ] Implement a dropdown menu in your form. Add a `role` value to your state
       and add a dropdown with different roles for your users.
 - [ ] Create 3 new inputs inside your form of your choice along with
       corresponding validation and error messaging
-- [ ] Add to your existing handling so that, if a user inputs their email as
+- [x] Add to your existing handling so that, if a user inputs their email as
       `waffle@syrup.com`, they receive an error message in their form that says
       _"That email is already taken."_
 

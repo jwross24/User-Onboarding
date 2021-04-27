@@ -24,6 +24,7 @@ export default function Form() {
     email: yup
       .string()
       .email('You must provide a valid email address.')
+      .notOneOf(['waffle@syrup.com'], 'That email is already taken.')
       .required('You must provide an email address.'),
     password: yup
       .string()
