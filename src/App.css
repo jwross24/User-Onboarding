@@ -60,3 +60,7 @@ form button {
   margin-top: -0.5rem;
   color: tomato;
 }
+
+pre {
+  text-align: left;
+}
